@@ -27,7 +27,7 @@ Biblioteca: numpy, opencv e naoqi
 
 ````bash
 sudo apt install curl
-curl https://raw.githubusercontent.com/lara-unb/UnBeatables-Template-CPP/refs/heads/main/instalador.sh | sh
+curl https://raw.githubusercontent.com/i-JSS/Vision-Control-NAO/refs/heads/master/instalador.sh | sh
 rm instalador.sh
 ````
 
