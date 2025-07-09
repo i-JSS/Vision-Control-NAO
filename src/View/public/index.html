@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Controle de Câmera NAO</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Controle de Câmera NAO</h1>
+
+<div class="joysticks-container" style="background: #202020; border-radius: 10px">
+    <div class="joystick-wrapper">
+        <div class="joystick-zone" id="joystickLeft"></div>
+    </div>
+    <div class="joystick-wrapper">
+        <div class="joystick-zone" id="joystickRight"></div>
+    </div>
+</div>
+
+<div class="output-container">
+    <div class="output" id="outputLeft">
+        <p>Joystick Esquerdo inativo</p>
+        <p id="directionLeft">Direção: -</p>
+        <p id="forceLeft">Força: 0</p>
+        <p id="angleLeft">Ângulo: 0°</p>
+    </div>
+    <div class="output" id="outputRight">
+        <p>Joystick Direito inativo</p>
+        <p id="directionRight">Direção: -</p>
+        <p id="forceRight">Força: 0</p>
+        <p id="angleRight">Ângulo: 0°</p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.9.0/nipplejs.min.js"></script>
+<script src="controller.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
