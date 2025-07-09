@@ -51,7 +51,7 @@ function setupJoystickEvents(manager, side) {
         const angle = Math.round(nipple.angle?.degree || 0);
         const force = Math.min(1, Math.round(nipple.force * 100) / 100);
 
-        outputEl.textContent = `Joystick ${side === 'Left' ? 'Esquerdo' : 'Direito'} ativado`;
+        outputEl.textContent = `Joystick ${side === 'Left' ? 'Direito' : 'Esquerdo'} ativado`;
         outputEl.style.color = side === 'Left' ? '#4285F4' : '#EA4335';
         directionEl.textContent = `Direção: ${getDirectionName(angle)}`;
         forceEl.textContent = `Força: ${force}`;
@@ -88,8 +88,8 @@ function getDirectionName(angle) {
     if (angle === undefined) return '-';
 
     const directions = [
-        'Frente', 'Frente-Direita', 'Direita', 'Trás-Direita',
-        'Trás', 'Trás-Esquerda', 'Esquerda', 'Frente-Esquerda'
+        'Direita', 'Frente-Direita', 'Frente', 'Frente-Esquerda',
+        'Esquerda', 'Trás-Esquerda', 'Trás', 'Trás-Direita',
     ];
 
     const index = Math.round(((angle % 360) / 45)) % 8;

@@ -9,7 +9,10 @@
 </head>
 <body>
 
-<h1>Controle de Câmera NAO</h1>
+<center>
+    <h1>Controle de Câmera NAO</h1>
+    <h3>By: Leticia Takahashi & João Carvalho</h3>
+</center>
 
 <div class="joysticks-container" style="background: #202020; border-radius: 10px">
     <div class="joystick-wrapper">
@@ -20,20 +23,23 @@
     </div>
 </div>
 
-<div class="output-container">
-    <div class="output" id="outputLeft">
-        <p>Joystick Esquerdo inativo</p>
-        <p id="directionLeft">Direção: -</p>
-        <p id="forceLeft">Força: 0</p>
-        <p id="angleLeft">Ângulo: 0°</p>
-    </div>
-    <div class="output" id="outputRight">
-        <p>Joystick Direito inativo</p>
+<div class="output-container" style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
+    <div class="output" id="outputRight" style="background-color: #ffc2be; border: 2px solid #EA4335; border-radius: 10px; padding: 15px; width: 250px;">
+        <p><strong>Joystick Esquerdo</strong> inativo</p>
         <p id="directionRight">Direção: -</p>
         <p id="forceRight">Força: 0</p>
         <p id="angleRight">Ângulo: 0°</p>
     </div>
+
+    <div class="output" id="outputLeft" style="background-color: #bdd5fb; border: 2px solid #4285F4; border-radius: 10px; padding: 15px; width: 250px;">
+        <p><strong>Joystick Direito</strong> inativo</p>
+        <p id="directionLeft">Direção: -</p>
+        <p id="forceLeft">Força: 0</p>
+        <p id="angleLeft">Ângulo: 0°</p>
+    </div>
+
 </div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.9.0/nipplejs.min.js"></script>
 <script src="controller.js"></script>
