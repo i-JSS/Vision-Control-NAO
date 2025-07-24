@@ -11,14 +11,6 @@
 
 ---
 
-## Sobre
-
-Controle da câmera do NAO
-
-TODO COLOCAR AS EQUAÇÕES USADAS AQ
-
----
-
 ## Instalação
 
 Linguagem: Python - 2.7 | node 17+
