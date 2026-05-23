@@ -1,5 +1,11 @@
 # Vision-Control-NAO & Obstacle Avoidance
 
+![Python](https://img.shields.io/badge/Python_2.7-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NAO Robot](https://img.shields.io/badge/NAO_Robot-NAOqi-informational?style=for-the-badge)
+
 
 ![Exemplo NAO andando](images/output2.gif)
 
