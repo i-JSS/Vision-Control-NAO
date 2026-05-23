@@ -1,16 +1,17 @@
 # Vision-Control-NAO & Obstacle Avoidance
 
 
+![Exemplo NAO andando](images/output2.gif)
+
+![Exemplo NAO curva](images/output.gif)
+
+
 |             Aluno             | Matrícula |
 |:-----------------------------:|:---------:|
 | Leticia Miti Takahashi | 231035437  |
 | João Antonio Ginuino carvalho | 221008150 |
 | Marcos Antonio Teles de Castilhos | 221008300 |
 | Diego Carlito Rodrigues de Souza | 221007690 |
-
-![Exemplo NAO andando](images/output2.gif)
-
-![Exemplo NAO curva](images/output.gif)
 
 ---
 
